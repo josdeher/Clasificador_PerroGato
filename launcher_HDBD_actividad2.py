@@ -6,7 +6,7 @@ import numpy as np
 from PIL import Image
 
 # Cargamos el modelo de clasificación
-modelo = tf.keras.models.load_model(r'C:\Users\josdeher\Documents\6º Máster\Técnicas de desarrollo avanzado de aplicaciones big data\Actividad 2\clasificador_perrogato.keras')
+modelo = tf.keras.models.load_model('clasificador_perrogato.keras')
 
 # Título de la página
 st.set_page_config(page_title = '🐶🐱 Clasificador de perro-gato')
