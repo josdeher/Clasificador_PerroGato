@@ -9,7 +9,7 @@ from PIL import Image
 modelo = tf.keras.models.load_model('clasificador_perrogato.keras')
 
 # Título de la página
-st.set_page_config(page_title = '🐶🐱 Clasificador de perro-gato')
+st.set_page_config(page_title = 'Clasificador 🐶🐱')
 st.title('🐶🐱 Clasificador de perro-gato')
 
 # Creamos un campo desde el que se pueda subir una imagen
