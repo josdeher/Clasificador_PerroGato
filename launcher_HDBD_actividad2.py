@@ -13,7 +13,7 @@ st.set_page_config(page_title = '🐶🐱 Clasificador de perro-gato')
 st.title('🐶🐱 Clasificador de perro-gato')
 
 # Creamos un campo desde el que se pueda subir una imagen
-campo_imagen = st.file_uploader('Selecciona una imagen:', type = 'jpg')
+campo_imagen = st.file_uploader('Inserta una imagen en este cuadro:', type = 'jpg')
 
 # Clasificamos la imagen
 clase = []
